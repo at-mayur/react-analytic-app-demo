@@ -1,0 +1,54 @@
+
+.appContentContainer{
+    width: 99%;
+    height: 82%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    overflow: scroll;
+}
+
+.appContentContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.graphTabelContainer{
+    width: 60%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.graphTabelContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.filterSelector{
+    width: 38%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+
+.infoCardsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .graphTabelContainer{
+        width: 98%;
+        margin-top: 20px;
+    }
+
+    .filterSelector{
+        width: 96%;
+        height: auto;
+        margin: auto;
+    }
+}

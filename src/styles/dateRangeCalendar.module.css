@@ -1,0 +1,11 @@
+
+.dateRangeContainer{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

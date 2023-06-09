@@ -1,0 +1,48 @@
+
+.barHolderContainer{
+    width: 88%;
+    height: 68%;
+    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    position: relative;
+    flex-wrap: nowrap;
+}
+
+.graphLine{
+    width: 100%;
+    position: absolute;
+    border-top: 1px dashed rgb(241, 241, 241);
+    z-index: 0;
+}
+
+.graphField{
+    width: 10%;
+    position: absolute;
+    right: 102%;
+    margin: 0;
+    color: grey;
+    font-size: small;
+}
+
+.complete{
+    top: 0;
+}
+
+.eighty{
+    top: 20%;
+}
+
+.sixty{
+    top: 40%;
+}
+
+.forty{
+    top: 60%;
+}
+
+.twenty{
+    top: 80%;
+}

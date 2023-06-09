@@ -1,0 +1,16 @@
+
+.graphBar{
+    width: 15px;
+    margin: 0 20px;
+    border-radius: 3px;
+    z-index: 1;
+    position: relative;
+}
+
+.barField{
+    color: grey;
+    position: absolute;
+    margin: 0;
+    top: 101%;
+    font-size: small;
+}

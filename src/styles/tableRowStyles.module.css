@@ -1,0 +1,25 @@
+
+.tableRowContainer{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.tableRowContainer p{
+    margin: 10px 0;
+}
+
+.rowStartPointer{
+    width: 15px;
+    height: 25px;
+    border-radius: 3px 0 0 3px;
+    background-color: rgb(230, 55, 55);
+}
+
+.orders{
+    color: grey;
+}

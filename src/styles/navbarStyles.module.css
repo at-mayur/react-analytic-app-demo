@@ -1,0 +1,184 @@
+
+.navbarContainer{
+    width: 94%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navBrandContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItemsContainer{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 5;
+}
+
+.navItem{
+    position: relative;
+}
+
+.navItem .navIcon{
+    font-size: 24px;
+    display: block;
+}
+
+.navItem:hover{
+    transform: scale(1.1);
+}
+
+.navItem:hover .menuTip{
+    display: block;
+}
+
+.menuTip{
+    box-sizing: border-box;
+    background-color: navy;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 2;
+    position: absolute;
+    top: 70%;
+    display: none;
+}
+
+.userImgContainer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.bellIcon{
+    position: relative;
+}
+
+.notificationDot{
+    font-size: 12px;
+    color: rgb(222, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 18px;
+}
+
+.navTitle{
+    font-size: 26px;
+    font-weight: bold;
+    animation: rubberBandEffect 0.8s ease-in-out;
+}
+
+.search{
+    animation: rubberBandEffect 0.8s 0.5s ease-in-out;
+}
+
+.notify{
+    animation: rubberBandEffect 0.8s 1s ease-in-out;
+}
+
+.profile{
+    animation: rubberBandEffect 0.8s 1.5s ease-in-out;
+}
+
+.navBtn{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    padding: 0;
+    display: none;
+}
+
+.navBtn:hover{
+    font-size: 36px;
+}
+
+.navBtnFocus{
+    font-size: 36px;
+    text-shadow: 0 0 8px rgb(56, 56, 254);
+}
+
+.show{
+    display: flex !important;
+}
+
+
+@media screen and (max-width: 800px) {
+    .navBtn{
+        display: block;
+    }
+
+    .navBrandContainer{
+        width: 100%;
+    }
+
+    .navItemsContainer{
+        width: 35%;
+        flex-direction: column;
+        background-color: lightgrey;
+        border-radius: 10px;
+        position: absolute;
+        right: 0;
+        top: 90%;
+        display: none;
+    }
+
+    .navItem{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navItem:hover{
+        transform: scale(1);
+        background-color: rgb(198, 197, 197);
+        border-radius: 5px;
+    }
+
+    .navItem .navIcon{
+        font-size: 20px;
+    }
+
+    .userImgContainer img{
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+
+    .menuTip{
+        position: relative;
+        display: block;
+        background-color: transparent;
+        padding: auto;
+        margin: 5px 0;
+        color: black;
+    }
+}
+
+
+@keyframes rubberBandEffect {
+    from{
+        transform: scale(1.1);
+    }
+    25%{
+        transform: scale(0.9);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    75%{
+        transform: scale(0.95);
+    }
+    to{
+        transform: scale(1);
+    }
+}

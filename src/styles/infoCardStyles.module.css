@@ -1,0 +1,57 @@
+
+.infoCardContainer{
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 0;
+    animation: rubberBandEffect 0.8s 2s ease-in-out;
+}
+
+.infoTitle{
+    color: grey;
+    font-size: larger;
+    font-family: monospace;
+    box-sizing: border-box;
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+.infoDay{
+    color: grey;
+    margin-top: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.infoValue{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xx-large;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.infoValue i{
+    margin-right: 10px;
+}
+
+
+@keyframes rubberBandEffect {
+    from{
+        transform: scale(1.1);
+    }
+    25%{
+        transform: scale(0.9);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    75%{
+        transform: scale(0.95);
+    }
+    to{
+        transform: scale(1);
+    }
+}
