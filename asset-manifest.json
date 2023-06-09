@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-analytic-app-demo/static/css/main.0179cbe5.css",
+    "main.js": "/react-analytic-app-demo/static/js/main.af940cca.js",
+    "index.html": "/react-analytic-app-demo/index.html",
+    "main.0179cbe5.css.map": "/react-analytic-app-demo/static/css/main.0179cbe5.css.map",
+    "main.af940cca.js.map": "/react-analytic-app-demo/static/js/main.af940cca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0179cbe5.css",
+    "static/js/main.af940cca.js"
+  ]
+}
